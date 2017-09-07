@@ -1,0 +1,62 @@
+.list-item {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 80px;
+    background-color: #fff;
+    margin: 5px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #6e5454;
+}
+
+.left {
+    /* position: relative; */
+    float: left;
+    width: 70px;
+    height: 100px;
+    text-align: center;
+}
+
+.left span {
+    background-color: #5F1854;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.imgwrap {
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+}
+
+.imgwrap img {
+    height: 50px;
+    width: 50px;
+} 
+
+.right {
+    text-align: right;
+    float: right;
+    width: 80px;
+    margin-right: 10px;
+    font-size: 14px;
+    
+}
+
+.content {
+    margin: 0 90px 0 70px;
+}
+.content h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.15rem;
+}
+.content .loginname {
+    margin-top: 16px;
+}

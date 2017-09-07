@@ -1,0 +1,32 @@
+.message-item {
+    clear: both;
+    margin: 1.3em;
+    overflow: hidden;
+}
+
+.message-item .img-wrap {
+    float: left;
+} 
+
+.message-item .img-wrap img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.message-item .content-wrap .content {
+    margin-top: 1em;
+}
+
+.message-item .read-flag {
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    background-color: #d54857;
+}
+
+.message-item a {
+    color: #5F1854;
+    font-size: 1.2em;
+}

@@ -1,0 +1,15 @@
+/* 公共头部 */
+.common-header {
+    height: 55px;
+    background-color: #5F1854;
+    font-size: 1.3em;
+    line-height: 55px;
+    color: #fff;
+    text-align: center;
+}
+i.left {
+    float: left;
+    margin-top: 15px;
+    margin-left: -15px;
+    height: 40px;
+}

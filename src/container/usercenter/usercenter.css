@@ -1,0 +1,51 @@
+/* 登录 */
+.login-input  {
+    clear: both;
+    width: 300px;
+    margin: 70px auto;
+    /* text-align: center; */
+}
+.login-input .access-token {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.login-input .btn {
+    background-color: #5F1854;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+/* 用户中心页 */
+
+.usercenter .userinfo {
+    text-align: center; 
+    clear: both; 
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 15px;
+    /* border: 1px solid red; */
+}
+
+.userinfo img {
+    border-radius: 50%;
+}
+
+.userinfo p {
+    font-size: 26px;
+    color:#6e5454;
+}
+
+.usercollection {
+    margin-top: 15px;
+}
+.usercollection .title {
+    font-size: 24px;
+    background-color: #5F1854;
+    color: #fff;
+    border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+.markdown-text {
+    color: #333;
+    padding:1em 2em;
+}
+
+.markdown-text h1 {
+    margin: 30px 0 15px;
+    border-bottom: 1px solid #eee;
+    line-height: 40px;
+}
+
+.markdown-text p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    overflow: auto;
+    margin: 1em 0;
+}
+.markdown-text ul {
+    margin: 0 0 10px 25px;
+}
+.markdown-text ul li{
+    line-height: 2em;
+    font-size: 1.2em;
+}
+.markdown-text ol {
+    margin: 0 0 10px 25px;
+}
+.markdown-text ol li{
+    line-height: 2em;
+    font-size: 1.2em;
+}
+.markdown-text p {
+    margin-bottom: 1em;
+}
+.markdown-text p img {
+    cursor: pointer;
+    height: align-self;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+pre.prettyprint {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    padding: 0 15px;
+    margin: 20px -10px;
+    border-width: 1px 0;
+    background-color: #f7f7f7;
+    tab-size: 4;
+}
+pre code {
+    background-color: transparent
+}
+
+code span {
+    color:#660;
+    font-size: 12px;
+}

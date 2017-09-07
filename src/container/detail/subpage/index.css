@@ -1,0 +1,12 @@
+.replylist {
+    padding: 1.2em;
+}
+
+.replylist .title {
+    color:#5F1854;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding-left: 2em;
+    margin-bottom: 1.5em;
+    background-color: #ccc;
+}
