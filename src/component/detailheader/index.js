@@ -21,7 +21,6 @@ class DetailHeader extends Component {
             hashHistory.push('/user')
         }else{
             if(e.target.value === '收藏') {
-                console.log('发送收藏请求')
                 postCollect(this.props.userinfo.accessToken,this.props.id)//收藏
                     .then( res => res.json())
                     .then( json => {
@@ -30,11 +29,10 @@ class DetailHeader extends Component {
                                 isCollect: true
                             })
                         }else{
-                            console.log('...')
+                            
                         } 
                     }) 
             } else {
-                console.log('发送取消收藏请求')
                 postDecollect(this.props.userinfo.accessToken,this.props.id)//取消收藏
                     .then( res => res.json())
                     .then( json => {
@@ -43,7 +41,7 @@ class DetailHeader extends Component {
                                 isCollect: false
                             })
                         }else {
-                            console.log('...')
+                            
                         }
                     })
             }

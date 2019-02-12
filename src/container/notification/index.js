@@ -17,11 +17,7 @@ class Notification extends Component {
     handleClickLink(accessToken,id) {
         postMarkOneMessage(accessToken,id)
             .then( res => res.json())
-            .then( json => {
-                if(json.success) {
-                    console.log('发送标记消息已读成功')
-                }
-            })
+            .then( () => {})
             .catch( err => {
                 console.log('出错啦')
             })
@@ -38,7 +34,6 @@ class Notification extends Component {
                             hasRead: json.data.has_read_messages,
                             notRead: json.data.hasnot_read_messages
                         })
-                        console.log('获取成功')
                     } else {
                         console.log(json.error_msg)
                     }

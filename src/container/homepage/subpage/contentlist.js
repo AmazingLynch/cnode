@@ -33,7 +33,6 @@ class ContentList extends Component {
     }
 
     componentWillReceiveProps(nextProps){
-        console.log(nextProps.currentTab)
         this.setState({
             tab: nextProps.currentTab,
             page:1,
@@ -77,7 +76,6 @@ class ContentList extends Component {
             limit:9,
             mdrender: false
         }
-        console.log(option)
 
         getDataWithTab(option)
             .then( res => res.json())

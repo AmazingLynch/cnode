@@ -42,7 +42,6 @@ class Detail extends Component {
                 .then( res => res.json())
                 .then( json => {
                     if(json.success) {
-                        console.log('评论成功')
                         this.setState({
                             inputValue: ''
                         })
@@ -59,7 +58,6 @@ class Detail extends Component {
         let avatalUrl = author === undefined ? '' : author.avatal_url
         let isCollect = this.state.data.hasOwnProperty('is_collect') ? this.state.data.is_collect : false
         let createTime = create_at === undefined ? '' : create_at.split('T')[0]
-        console.log(replies)
         return (
             <div>
                 <Header title='详情'></Header>

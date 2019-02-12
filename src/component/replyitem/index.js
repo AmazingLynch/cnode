@@ -34,13 +34,11 @@ class ReplyItem extends Component {
                                 isUped: true,
                                 upLength: this.state.upLength + 1
                             })
-                            console.log('点赞了')
                         } else {                //取消点赞
                             this.setState({
                                 isUped: false,
                                 upLength: this.state.upLength - 1
                             })
-                            console.log('取消点赞')
                         }
                     }
                 })
@@ -51,7 +49,6 @@ class ReplyItem extends Component {
     }
     handleClickReply() {
         //点击回复按钮
-        console.log('点击了回复按钮')
         this.setState({
             inputShow: !this.state.inputShow
         })
@@ -73,7 +70,6 @@ class ReplyItem extends Component {
                 .then( res => res.json())
                 .then( json => {
                     if(json.success) {
-                        console.log('评论成功')
                         this.setState({
                             inputShow: false
                         })
